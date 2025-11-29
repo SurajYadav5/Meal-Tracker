@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meal Tracker — Meals</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Meal Tracker</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="meals.html">Meals</a> |
+      <a href="workouts.html">Workouts</a>
+    </nav>
+  </header>
+
+  <section class="meal-input">
+    <h2>Add a Meal (Mock)</h2>
+    <form>
+      <label>
+        Meal Name:
+        <input type="text" placeholder="e.g. Breakfast" disabled />
+      </label><br/>
+
+      <label>
+        Calories:
+        <input type="number" placeholder="e.g. 350" disabled />
+      </label><br/>
+
+      <label>
+        Time:
+        <input type="time" disabled />
+      </label><br/>
+
+      <button type="submit" disabled>Add Meal</button>
+    </form>
+    
+  </section>
+
+  <section class="meal-log">
+    <h2>Today’s Meals</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Meal</th>
+          <th>Calories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00</td>
+          <td>Breakfast — Oatmeal + Banana</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>Lunch — Rice + Dal + Salad</td>
+          <td>550</td>
+        </tr>
+        <tr>
+          <td>19:30</td>
+          <td>Dinner — Roti + Sabzi + Yogurt</td>
+          <td>600</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 My Diet & Fitness App</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meal Tracker — Workouts</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Meal Tracker</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="meals.html">Meals</a> |
+      <a href="workouts.html">Workouts</a>
+    </nav>
+  </header>
+
+  <section class="workout-input">
+    <h2>Add a Workout (Mock)</h2>
+    <form>
+      <label>
+        Workout Type:
+        <input type="text" placeholder="e.g. Running" disabled />
+      </label><br/>
+
+      <label>
+        Duration (mins):
+        <input type="number" placeholder="e.g. 30" disabled />
+      </label><br/>
+
+      <label>
+        Calories Burned:
+        <input type="number" placeholder="e.g. 250" disabled />
+      </label><br/>
+
+      
+      <input style="color: orangered;" type="submit" value="Add Workout"></in>
+    </form>
+   
+  </section>
+
+  <section class="workout-log">
+    <h2>Recent Workouts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Workout</th>
+          <th>Duration</th>
+          <th>Calories Burned</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>07:00</td>
+          <td>Running</td>
+          <td>25 min</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>18:00</td>
+          <td>Yoga</td>
+          <td>30 min</td>
+          <td>120</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 My Diet & Fitness App</p>
+  </footer>
+</body>
+</html>
